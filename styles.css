@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#text {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
